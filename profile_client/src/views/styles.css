@@ -1,0 +1,197 @@
+/*Home page*/
+
+.main-container {
+    color: #ff5e00;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main--box {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 5px;
+    font-size: 2em;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.contact-box {
+    height: 20vh;
+    margin-top: 100px;
+    width: 100vw;
+}
+
+.welcome--box {
+    display: inline-block;
+}
+
+.text {
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 4s steps(61),
+        cursor .4s step-end infinite alternate;
+}
+
+/*cursor blink*/
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}
+
+/*typing text animation*/
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+/*Button styling*/
+
+button {
+    color: #ff5e00;
+    border: 1px solid #ff5e00;
+    background-color: transparent;
+    letter-spacing: 3px;
+    padding: 12px;
+    font-size: 20px;
+    margin: 100px;
+    transition: 400ms linear;
+}
+
+button:hover {
+    color: #272727;
+    background-color: #ff5e00;
+    cursor: pointer;
+
+}
+
+
+/* Contact page*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.paragraph {
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.box-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.box {
+    width: 500px;
+    opacity: o.5;
+    text-align: left;
+    color: #ff5e00;
+    text-align: left;
+    padding: 50px;
+    font-size: 1.3em;
+    max-height: 150px;
+    margin: 20vh auto;
+    transition: 400ms linear;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+
+    --b: 3px;
+    /* thickness of the border */
+    --c: #ff5e00;
+    /* color of the border */
+    --w: 12px;
+    /* width of border */
+    border: var(--b) solid #0000;
+    /*space for the border */
+    --_g: #0000 90deg, var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+        conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p),
+        conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p),
+        conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+}
+
+.box:hover {
+    transform: scale(1.4);
+}
+
+/*Works page*/
+
+.works-container {
+    height: 100vh;
+    margin-top: 50px;
+
+}
+
+.MuiTabs-root {
+    width: 100vw;
+}
+
+/*Tabs*/
+
+
+.uxui-container {
+    margin: 0;
+    padding: 0;
+    background-color: #faf6e8;
+    height: 100vh;
+    margin: auto;
+    width: 80vh;
+}
+
+.design3d-container {
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    height: 100%;
+    margin: auto;
+    width: 80vh;
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+}
+
+.sd-container {
+    margin: 0;
+    padding: 0;
+    background-color: #fafff8;
+    width: 80vh;
+    margin: auto;
+    height: 100vh;
+}
+
+img {
+    max-height: 200px;
+    overflow: hidden;
+    padding: 20px;
+    transition: 400ms linear;
+
+}
+.design3d-paragraph {
+    color: #fff ;
+    margin: 20px;
+    font-size: 1.2em;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    padding: 20px;
+
+
+}
+img:hover {
+    transform: scale(1.05);
+    transform-origin: center center;
+    z-index: 1000;
+}
