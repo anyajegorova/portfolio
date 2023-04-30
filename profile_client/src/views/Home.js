@@ -18,7 +18,7 @@ const Home = () => {
             </div>
             <div className='main--box'>
                 <div className='welcome--box'>
-                    <p className='text'>Hello! It's me, Anna Jegorova and I'm a future Front-End Developer :)
+                    <p className='text'>Hello! It's me, <span>Anna Jegorova</span> and I'm a future Front-End Developer :)
                     </p>
                 </div>
                 <div className='button--box'>

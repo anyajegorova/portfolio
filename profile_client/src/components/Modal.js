@@ -20,7 +20,6 @@ const style = {
     p: 4,
     color: '#ff5e00',
     fontFamily: "'Orbitron', sans-serif",
-    letterSpacing: '10px'
 };
 const HomeModal = ({ open, setOpen }) => {
     const handleClose = () => setOpen(false);

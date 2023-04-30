@@ -37,7 +37,7 @@ const Design3d = () => {
                 3D models created using Blender
             </p>
             <cite>
-                These are the screenshots of 3D Models I've created using such tool as Blender. 
+                These are the screenshots of 3D Models I've created using Blender. More to come!
             </cite>
             <div className='photo-container'>
 
