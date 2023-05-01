@@ -30,30 +30,29 @@ const About = () => {
                     <div className='section'>
                         <div className='skill-name'>Tools</div>
                         <div className='skill-set'>
-                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>HTML&CSS</p> <ProgressBar percent='90%' /></div>
-                            <p><KeyboardArrowRightIcon />JavaScript</p><ProgressBar percent='60%' />
-                            <p><KeyboardArrowRightIcon />React</p> <ProgressBar percent='60%' />
-                            <p><KeyboardArrowRightIcon />NodeJS</p> <ProgressBar percent='40%' />
-                            <p><KeyboardArrowRightIcon />PostgreSQL</p> <ProgressBar percent='30%' />
-                            <p><KeyboardArrowRightIcon />MongoDB</p><ProgressBar percent='30%' />
-                            <p><KeyboardArrowRightIcon />Git</p><ProgressBar percent='30%' />
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>HTML&CSS</p> <ProgressBar percent='50%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>JavaScript</p><ProgressBar percent='40%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>React</p> <ProgressBar percent='40%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>NodeJS</p> <ProgressBar percent='20%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>PostgreSQL</p> <ProgressBar percent='20%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>MongoDB</p><ProgressBar percent='10%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>Git</p><ProgressBar percent='10%' /></div>
 
                         </div>
                     </div>
                     <div className='section'>
                         <div className='skill-name'>Languages</div>
                         <div className='skill-set'>
-                            <p><KeyboardArrowRightIcon />HTML&CSS</p>
-                            <p><KeyboardArrowRightIcon />Russian</p>
-                            <p><KeyboardArrowRightIcon />English</p>
-                            <p><KeyboardArrowRightIcon />Finnish</p>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>Russian</p><ProgressBar percent='100%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>English</p><ProgressBar percent='90%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>Finnish</p><ProgressBar percent='40%' /></div>
                         </div>
                     </div>
                     <div className='section'>
                         <div className='skill-name'>Interpersonal skills</div>
                         <div className='skill-set'>
-                            <p><KeyboardArrowRightIcon />Analytical Thinking</p>
-                            <p><KeyboardArrowRightIcon />Creative Thinking</p>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>Analytical Thinking</p><ProgressBar percent='50%' /></div>
+                            <div className='skill-wrapper'><KeyboardArrowRightIcon /><p>Creative Thinking</p><ProgressBar percent='50%' /></div>
                         </div>
                     </div>
                 </div>

@@ -126,7 +126,7 @@ a {
 }
 
 .box:hover {
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 /*Works page*/
@@ -241,6 +241,7 @@ cite {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    height: min(800px);
     
 }
 .skills {
@@ -255,6 +256,7 @@ cite {
 .skill-set {
     text-align: justify;
     width: 100%;
+    margin-left: max(40px);
 }
 
 .section {
@@ -271,4 +273,12 @@ cite {
 .skill-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: start;
+    padding-right: min(50%);
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.skill-wrapper p {
+    margin-right: auto;
 }
