@@ -26,7 +26,7 @@ const About = () => {
                 </div>
                 <div className='general-info-container'>
                     <p style={{ color: '#ff5e00', fontSize: 30, letterSpacing: 2 }}>Anna Jegorova</p>
-                    <p style={{ fontSize: 14, fontStyle: 'italic' }}><PlaceIcon style={{ color: '#ff5e00' }} />Vantaa - Finland</p>
+                    <p style={{ fontSize: 14}}><PlaceIcon style={{ color: '#ff5e00' }} />Vantaa - Finland</p>
                     <p> Greetings! I'm thrilled to have you here!</p>
                     <p>Currently, I am pursuing a degree in <span style={{ color: '#ff5e00' }}>Business Information Technology</span> at Haaga-Helia UAS with the aim of becoming a <span style={{ color: '#ff5e00' }}>Junior Front-end Developer</span> in the near future. Looking ahead, my ultimate goal is to attain the position of <span style={{ color: '#ff5e00' }}>Senior Full-stack Developer</span> through dedicated effort and continuous learning.</p>
                     <Link to='/works'><button>CHECK WORKS</button>

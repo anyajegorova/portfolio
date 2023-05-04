@@ -34,7 +34,10 @@
     
 }
 
+.navMenu a.active {
+    color: #ff5e00;
+}
+
 .navMenu a:hover {
     color: #ff5e00;
-    text-shadow: 0 20px 0.5px #ff792b;
 }

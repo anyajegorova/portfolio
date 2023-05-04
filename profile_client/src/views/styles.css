@@ -197,6 +197,8 @@ cite {
 
 /*About page*/
 
+/*Main Card*/
+
 .photo-container img:hover {
     transform: scale(1.05);
     transform-origin: center center;
@@ -205,8 +207,8 @@ cite {
 
 .profile-image-container img {
     border-radius: 50%;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     object-fit: cover;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, .2);
     margin: 10px;
@@ -216,25 +218,35 @@ cite {
     display: flex;
     color: white;
     background-color: #6b6b6b28;
-    padding: 20px;
+    padding: 70px;
     justify-content: space-around;
     margin-top: 10px;
+    font-size: 26px;
 }
 
 .general-info-container {
     display: flex;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 900px;
     justify-content: space-around;
     text-align: justify;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .general-info-container button {
     width: 300px;
     margin: 0 auto;
     cursor: pointer;
+    margin-top: 30px;
+    
 }
+
+.general-info-container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Skills Card*/
 
 .skills-container {
     color: white;
@@ -256,9 +268,7 @@ cite {
 
 .skill-set {
     text-align: justify;
-    width: 100%;
     margin-left: max(40px);
-    height: 100%;
 }
 
 .section {
@@ -273,10 +283,10 @@ cite {
 }
 
 
-
 .skill-name {
     font-size: 28px;
-    margin: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .skill-wrapper {
@@ -285,14 +295,17 @@ cite {
     justify-content: start;
     padding-right: min(50%);
     align-items: center;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
 }
 
 .skill-wrapper p {
     margin-right: auto;
+    padding-left: 15px;
 }
 
-/*Cards*/
+/*Cards NOT USED*/
 
 .card-container {
     display: flex;
