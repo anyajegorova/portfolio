@@ -4,9 +4,20 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import { Link } from "react-router-dom";
 
 import ProgressBar from '../components/ProgressBar';
+// import CardDev from '../components/CardDev';
+
+import Sofa from '../images/3D/Sofa_view2.jpg';
+import SignUp from '../images/UXUI/sign_up.JPG';
+import Coding from '../images/SoftwareDevelopment/software_development.png';
+
 
 
 const About = () => {
+
+    const modelling = { image: Sofa, content: '3D Modelling', alt: '3D Modelling', description: '3D Models created using Blender' };
+    const softwareDevelopment = { image: Coding, content: 'Software Development', alt: 'Software Development', description: 'Programming Web Pages using modern programming tools' };
+    const design = { image: SignUp, content: 'UX/UI Design', alt: 'UX/UI Design', description: 'Holistic UX/UI Designs created using different technologies' };
+
     return (
         <>
             <div className='about-main-container'>
@@ -58,6 +69,20 @@ const About = () => {
                 </div>
 
             </div >
+            {/* <div className='card-container'>
+                <div className='card-wrapper'>
+                    <CardDev image={modelling.image} content={modelling.content} alt={modelling.alt} description={modelling.description} />
+
+                </div>
+                <div className='card-wrapper'>
+                    <CardDev image={softwareDevelopment.image} content={softwareDevelopment.content} alt={softwareDevelopment.alt} description={softwareDevelopment.description} />
+
+                </div>
+                <div className='card-wrapper'>
+                    <CardDev image={design.image} content={design.content} alt={design.alt} description={design.description} />
+                </div>
+
+            </div> */}
         </>
 
     )

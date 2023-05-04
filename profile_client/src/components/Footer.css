@@ -1,6 +1,9 @@
 .footer-container {
     height: 40px;
+    bottom: 0;
     color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: #272727;
+    width: 100%;
 }
