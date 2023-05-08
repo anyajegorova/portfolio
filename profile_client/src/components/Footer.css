@@ -3,7 +3,8 @@
     bottom: 0;
     color: rgb(255, 255, 255);
     text-align: center;
-    position: fixed;
-    background-color: #272727;
+    background-color: #383838;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
