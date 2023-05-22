@@ -12,13 +12,13 @@
     letter-spacing: 5px;
     font-size: 2em;
     justify-content: space-around;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .contact-box {
-    height: 20vh;
+    height: 20dvh;
     margin-top: 100px;
-    width: 100vw;
+    width: 100dvw;
 }
 
 .welcome--box {
@@ -138,7 +138,7 @@ a {
 }
 
 .MuiTabs-root {
-    width: 100vw;
+    width: 100dvw;
 }
 
 /*Tabs*/
@@ -148,9 +148,9 @@ a {
     margin: 0;
     padding: 0;
     background-color: #faf6e8;
-    height: 100vh;
+    height: 100dvh;
     margin: auto;
-    width: 80vh;
+    width: 80dvh;
 }
 
 .design3d-container {
@@ -159,7 +159,7 @@ a {
     background-color: #383838;
     height: 100%;
     margin: auto;
-    width: 80vh;
+    width: 80dvh;
     border-left: 1px dotted #fff;
     border-right: 1px dotted #fff;
 }
@@ -168,9 +168,9 @@ a {
     margin: 0;
     padding: 0;
     background-color: #fafff8;
-    width: 80vh;
+    width: 80dvh;
     margin: auto;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .photo-container img {
@@ -405,4 +405,5 @@ input[type='submit']:hover {
 .social-media {
     max-width: 50%;
     min-width: 20%;
+    
 }
