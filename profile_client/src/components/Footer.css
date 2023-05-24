@@ -1,5 +1,5 @@
 .footer-container {
-    height: 40px;
+    max-height: 40px;
     bottom: 0;
     color: rgb(255, 255, 255);
     text-align: center;

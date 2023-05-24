@@ -1,20 +1,15 @@
 import * as React from "react";
-import { useState } from 'react';
 import { Link } from "react-router-dom";
 import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 
 import './styles.css';
-import HomeModal from '../components/Modal';
 
 const Home = () => {
-    const [open, setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-
     return (
         <div className='main-container'>
-            <div className='contact-box'> Contact me
-                <ContactSupportIcon fontSize="large" onClick={handleOpen} />
+            <div className='contact-box'><Link to='contact' style={{ textDecoration: 'none', color: 'inherit' }}> Contact me <ContactSupportIcon fontSize="large" />
+            </Link>
+
             </div>
             <div className='main--box'>
                 <div className='welcome--box'>
@@ -30,10 +25,6 @@ const Home = () => {
 
                 </div>
             </div>
-            <HomeModal open={open} setOpen={setOpen} />
-
-
-
         </div>
 
 
