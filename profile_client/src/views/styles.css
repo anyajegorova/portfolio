@@ -73,14 +73,11 @@ button:hover {
 /*Works page*/
 
 .works-container {
-    height: 100vh;
     margin-top: 50px;
     background-color: #383838
 }
 
-.MuiTabs-root {
-    width: 100dvw;
-}
+
 
 /*Tabs*/
 
@@ -202,8 +199,8 @@ cite {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 50%;
     padding: 20px;
+    height: 500px;
 
 }
 
@@ -211,11 +208,14 @@ cite {
     text-align: justify;
     margin-left: max(40px);
     padding-top: 40px;
+    height: 100%;
 }
 
 .section {
-    width: 100%;
+    width: 100dvw;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section:hover {
@@ -251,35 +251,32 @@ cite {
     margin: 5px 180px 5px 5px;
 }
 
-/* Cards NOT USED
-
-.card-container {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-around;
-    padding-top: 20px;
-    width: 60%;
-}
-
-.card-wrapper {
-    margin: 20px;
-} */
-
 
 /*Contact Form */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    height: 100dvh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
-.form-container {
-    max-width: 50%;
-    min-width: 30%;
-    margin: 0 auto;
+.form,
+.social-media {
     color: white;
     padding-top: 50px;
+    max-height: 550px;
+}
+.social-media {
+    width: 100px;
+    padding-left: 50px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 500px;
 }
 
 input {
@@ -289,8 +286,6 @@ input {
     outline: none;
     border-radius: 5px;
     border: 2px solid rgb(220, 220, 220);
-
-
 }
 
 input:focus {
@@ -301,8 +296,8 @@ textarea {
     max-width: 100%;
     min-width: 100%;
     width: 100%;
-    max-height: 100px;
-    min-height: 100px;
+    max-height: 150px;
+    min-height: 150px;
     padding: 7px;
     outline: none;
     border-radius: 5px;
@@ -316,6 +311,7 @@ textarea:focus {
 label {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    overflow: hidden;
 }
 
 input[type='submit'] {
@@ -334,14 +330,10 @@ input[type='submit']:hover {
     cursor: pointer;
 }
 
-.contact-container {
+.icon-container {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-}
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
 
-.social-media {
-    max-width: 50%;
-    min-width: 20%;
-    
 }

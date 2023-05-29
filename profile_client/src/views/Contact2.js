@@ -2,6 +2,8 @@ import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import './styles.css';
 
@@ -39,7 +41,7 @@ const Contact2 = () => {
 
     return (
         <div className='contact-container'>
-            <div className='form-container'>
+            <div className='form'>
                 <p style={{ fontSize: 24, letterSpacing: 2 }}>Message me:</p>
                 <form ref={form} onSubmit={sendEmail}>
                     <label>Name</label>
@@ -57,6 +59,12 @@ const Contact2 = () => {
                 </Snackbar>
             </div>
             <div className='social-media'>
+                <div className='icon-container'>
+                    <a href='https://github.com/anyajegorova' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faGithub} style={{ color: "#ff5e00", fontSize: 45 }} /></a>
+                    <a href='https://www.facebook.com/profile.php?id=100006668850817' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faFacebook} style={{ color: "#ff5e00", fontSize: 45 }} /></a>
+                    <a href='https://www.linkedin.com/in/anna-jegorova-b625a31b8/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ color: "#ff5e00", fontSize: 45 }} /></a>
+                    <a href='https://twitter.com/anyajegorova' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faTwitter} style={{ color: "#ff5e00", fontSize: 45 }} /></a>
+                </div>
 
             </div>
         </div>
