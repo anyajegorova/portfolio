@@ -1,7 +1,8 @@
 const SoftwareDevelopment = () => {
     return (
         <div className='sd-container'>
-            Software Development
+            <p class='naming-paragraph'>Software Development</p>
+
         </div>
     )
 }

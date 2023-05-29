@@ -33,7 +33,7 @@ const Design3d = () => {
     console.log(Clock3)
     return (
         <div className='design3d-container'>
-            <p className='design3d-paragraph'>
+            <p className='naming-paragraph'>
                 3D models created using Blender
             </p>
             <cite>
