@@ -141,23 +141,52 @@ cite {
     flex-direction: column;
     gap: 20px;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+
 
 }
 
 .prototypes {
     display: flex;
     justify-content: space-around;
-    background-color: rgba(255,255,255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     margin: 20px;
     box-sizing: border-box;
     padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .prototype-description {
     width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
+.slider {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+tr {
+    text-align: left;
+    height: 70px;
+    vertical-align: baseline;
+    width: 100%;
+    text-shadow: 2px 2px #5e5e5e;
+}
+
+td:first-child {
+    width: max(100px);
+}
 
 
 /*About page*/

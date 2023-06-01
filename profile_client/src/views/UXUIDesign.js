@@ -35,51 +35,115 @@ const UXUIDesign = () => {
         <div className='uxui-container'>
             <p class='naming-paragraph'>UX/UI Design</p>
             <Divider variant="middle" color='white' style={{ margin: 20 }} />
-            <cite>"These UI designs were created during User Experience and Prototyping of Digital Services courses. The following page includes the screenshots of pages that were designed by me. If you wish to look at the full designs, click 'OPEN PROTOTYPE' button." </cite>
+            <cite>"These UI designs were created during User Experience and Prototyping of Digital Services courses. The following page includes the screenshots of parts that were designed by me. If you wish to look at the full designs, click 'OPEN PROTOTYPE' button." </cite>
             <Divider variant="middle" color='white' style={{ margin: 20 }} />
             <div className='prototype-container'>
 
                 <div className='prototypes'>
-
-                    <SimpleImageSlider
+                    <div className='slider'><SimpleImageSlider
                         width={235}
                         height={510}
                         images={marvelImages}
                         showNavs={true}
-                    />
+                    /></div>
+
 
                     <div className='prototype-description'>
-                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff' }}>OPEN PROTOTYPE</Button>
-
-
+                        <table>
+                            <tr>
+                                <td>Tool:</td>
+                                <td style={{color: '#ff5e00', fontWeight: 'bold'}}>Marvel</td>
+                            </tr>
+                            <tr>
+                                <td>Done by:</td>
+                                <td>team of three students</td>
+                            </tr>
+                            <tr>
+                                <td>About:</td>
+                                <td>Design a reliable app for Digital Services students of Haaga-Helia</td>
+                            </tr>
+                            <tr>
+                                <td>Goals:</td>
+                                <td> easy access to course materials, easy-to-use and intuitive interface</td>
+                            </tr>
+                            <tr>
+                                <td>Methods:</td>
+                                <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
+                            </tr>
+                        </table>
+                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('https://marvelapp.com/prototype/61911e2')} sx={{':hover': {bgcolor: 'rgba(253, 251, 251, 0.755)', color: '#383838'}}}>OPEN PROTOTYPE</Button>
                     </div>
                 </div>
                 <div className='prototypes'>
-
-
-                    <SimpleImageSlider
-                        width={308}
-                        height={548}
-                        images={axureImages}
-                        showNavs={true}
-                    />
+                    <div className='slider'>
+                        <SimpleImageSlider
+                            width={308}
+                            height={548}
+                            images={axureImages}
+                            showNavs={true}
+                        /></div>
                     <div className='prototype-description'>
-                        <p>High-fidelity prototype created using <p style={{ color: '#ff5e00' }}>Axure </p></p>
-                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff' }}>OPEN PROTOTYPE</Button>
+                        <table>
+                            <tr>
+                                <td>Tool:</td>
+                                <td style={{color: '#ff5e00', fontWeight: 'bold'}}>Axure</td>
+                            </tr>
+                            <tr>
+                                <td>Done by:</td>
+                                <td>team of three students</td>
+                            </tr>
+                            <tr>
+                                <td>About:</td>
+                                <td>Design a reliable app for Digital Services students of Haaga-Helia</td>
+                            </tr>
+                            <tr>
+                                <td>Goals:</td>
+                                <td> easy access to course materials, easy-to-use and intuitive interface</td>
+                            </tr>
+                            <tr>
+                                <td>Methods:</td>
+                                <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
+                            </tr>
+                        </table>
+
+                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center'  }} onClick={() => window.open('')}>OPEN PROTOTYPE</Button>
                     </div>
 
                 </div>
 
                 <div className='prototypes'>
-                    <SimpleImageSlider
+                    <div className='slider'><SimpleImageSlider
                         width={311}
                         height={548}
                         images={InvisionAppImages}
                         showNavs={true}
-                    />
+                    /></div>
+
                     <div className='prototype-description'>
-                        <p>InvisionApp</p>
-                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff' }}>OPEN PROTOTYPE</Button>
+                        <table>
+                            <tr>
+                                <td>Tool:</td>
+                                <td style={{color: '#ff5e00', fontWeight: 'bold'}}>InvisionApp</td>
+                            </tr>
+                            <tr>
+                                <td>Done by:</td>
+                                <td>team of three students</td>
+                            </tr>
+                            <tr>
+                                <td>About:</td>
+                                <td>Design a reliable app for Digital Services students of Haaga-Helia</td>
+                            </tr>
+                            <tr>
+                                <td>Goals:</td>
+                                <td> easy access to course materials, easy-to-use and intuitive interface</td>
+                            </tr>
+                            <tr>
+                                <td>Methods:</td>
+                                <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
+                            </tr>
+                        </table>
+
+                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('https://prototyping-group4.invisionapp.com/console/share/ZQ2HFY42VJ')}>OPEN PROTOTYPE</Button>
                     </div>
 
 
@@ -93,3 +157,5 @@ const UXUIDesign = () => {
 }
 
 export default UXUIDesign;
+
+
