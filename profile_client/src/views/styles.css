@@ -135,30 +135,23 @@ cite {
     color: rgb(255, 255, 255)
 }
 
-.prototype {
-    max-height: 300px;
-}
-
+/* UX/UI Design Tab*/
 .prototype-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: white;
+    letter-spacing: 2px;
 
 }
 
-.marvel-prototype {
+.prototypes {
     display: flex;
     justify-content: space-around;
-}
-
-.axure-prototype {
-    display: flex;
-    justify-content: space-around;
-}
-
-.noname-prototype {
-    display: flex;
-    justify-content: space-around;
+    background-color: rgba(255,255,255, 0.1);
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 40px;
 }
 
 .prototype-description {
