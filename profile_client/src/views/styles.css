@@ -101,6 +101,7 @@ button:hover {
     width: 80dvh;
     border-left: 1px dotted #fff;
     border-right: 1px dotted #fff;
+    color: rgba(253, 251, 251, 0.733);
 }
 
 .sd-container {

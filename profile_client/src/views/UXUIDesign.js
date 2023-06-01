@@ -27,6 +27,7 @@ import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
 
 const UXUIDesign = () => {
+
     const marvelImages = [SignUp, Messages, Group, Chat, Keyboard];
     const axureImages = [SignUpAxure, LogIn, Calendar, Materials, Notifications, MessagesAxure, Quizzes, Scores];
     const InvisionAppImages = [SignUpInvision, University, Restaurants, Remove, Events, Destinations, Profile];
@@ -52,7 +53,7 @@ const UXUIDesign = () => {
                         <table>
                             <tr>
                                 <td>Tool:</td>
-                                <td style={{color: '#ff5e00', fontWeight: 'bold'}}>Marvel</td>
+                                <td style={{ color: '#ff5e00', fontWeight: 'bold' }}>Marvel</td>
                             </tr>
                             <tr>
                                 <td>Done by:</td>
@@ -71,7 +72,7 @@ const UXUIDesign = () => {
                                 <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
                             </tr>
                         </table>
-                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('https://marvelapp.com/prototype/61911e2')} sx={{':hover': {bgcolor: 'rgba(253, 251, 251, 0.755)', color: '#383838'}}}>OPEN PROTOTYPE</Button>
+                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('https://marvelapp.com/prototype/61911e2')} sx={{ ':hover': { bgcolor: 'rgba(253, 251, 251, 0.255)' } }}>OPEN PROTOTYPE</Button>
                     </div>
                 </div>
                 <div className='prototypes'>
@@ -86,7 +87,7 @@ const UXUIDesign = () => {
                         <table>
                             <tr>
                                 <td>Tool:</td>
-                                <td style={{color: '#ff5e00', fontWeight: 'bold'}}>Axure</td>
+                                <td style={{ color: '#ff5e00', fontWeight: 'bold' }}>Axure</td>
                             </tr>
                             <tr>
                                 <td>Done by:</td>
@@ -106,7 +107,7 @@ const UXUIDesign = () => {
                             </tr>
                         </table>
 
-                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center'  }} onClick={() => window.open('')}>OPEN PROTOTYPE</Button>
+                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('')} sx={{ ':hover': { bgcolor: 'rgba(253, 251, 251, 0.255)' } }}>OPEN PROTOTYPE</Button>
                     </div>
 
                 </div>
@@ -123,7 +124,7 @@ const UXUIDesign = () => {
                         <table>
                             <tr>
                                 <td>Tool:</td>
-                                <td style={{color: '#ff5e00', fontWeight: 'bold'}}>InvisionApp</td>
+                                <td style={{ color: '#ff5e00', fontWeight: 'bold' }}>InvisionApp</td>
                             </tr>
                             <tr>
                                 <td>Done by:</td>
@@ -142,8 +143,8 @@ const UXUIDesign = () => {
                                 <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
                             </tr>
                         </table>
+                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('https://prototyping-group4.invisionapp.com/console/share/ZQ2HFY42VJ')} sx={{ ':hover': { bgcolor: 'rgba(253, 251, 251, 0.255)' } }}>OPEN PROTOTYPE</Button>
 
-                        <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('https://prototyping-group4.invisionapp.com/console/share/ZQ2HFY42VJ')}>OPEN PROTOTYPE</Button>
                     </div>
 
 
