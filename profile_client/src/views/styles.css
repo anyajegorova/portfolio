@@ -73,7 +73,8 @@ button:hover {
 
 .works-container {
     margin-top: 50px;
-    background-color: #383838
+    background-color: #383838;
+    box-sizing: border-box;
 }
 
 
@@ -102,6 +103,7 @@ button:hover {
     border-left: 1px dotted #fff;
     border-right: 1px dotted #fff;
     color: rgba(253, 251, 251, 0.733);
+    box-sizing: border-box;
 }
 
 .sd-container {
@@ -112,6 +114,7 @@ button:hover {
     height: 100dvh;
     border-left: 1px dotted #fff;
     border-right: 1px dotted #fff;
+    box-sizing: border-box;
 }
 
 .photo-container img {
@@ -128,6 +131,7 @@ button:hover {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
     padding: 20px;
+    box-sizing: border-box;
 
 
 }
