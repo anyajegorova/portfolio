@@ -22,6 +22,7 @@ import Notifications from '../images/UXUI/Axure/Notifications.png';
 import Quizzes from '../images/UXUI/Axure/QuizzesAnsGames.png';
 import Scores from '../images/UXUI/Axure/Scores.png';
 import SignUpAxure from '../images/UXUI/Axure/SignUp.png';
+import Progress from '../images/UXUI/Axure/Progress.png';
 
 import CalendarAxure from '../images/UXUI/Axure2/axure_calendar.png';
 import Check from '../images/UXUI/Axure2/axure_check.png';
@@ -36,7 +37,7 @@ import Button from '@mui/material/Button';
 const UXUIDesign = () => {
 
     const marvelImages = [SignUp, Messages, Group, Chat, Keyboard];
-    const axureImages = [SignUpAxure, LogIn, Calendar, Materials, Notifications, MessagesAxure, Quizzes, Scores];
+    const axureImages = [SignUpAxure, LogIn, Calendar, Materials, Notifications, MessagesAxure, Quizzes, Scores, Progress];
     const axureImages2 = [Home, Check, Next, CalendarAxure, Continue, Final];
     const InvisionAppImages = [SignUpInvision, University, Restaurants, Remove, Events, Destinations, Profile];
 
@@ -69,11 +70,11 @@ const UXUIDesign = () => {
                             </tr>
                             <tr>
                                 <td>About:</td>
-                                <td>Design a reliable app for Digital Services students of Haaga-Helia</td>
+                                <td>Mobile application for Digital Services path students of Haaga-Helia</td>
                             </tr>
                             <tr>
                                 <td>Goals:</td>
-                                <td> easy access to course materials, easy-to-use and intuitive interface</td>
+                                <td>fast access to course materials, easy-to-use and intuitive interface</td>
                             </tr>
                             <tr>
                                 <td>Methods:</td>
@@ -99,19 +100,19 @@ const UXUIDesign = () => {
                             </tr>
                             <tr>
                                 <td>Done by:</td>
-                                <td>team of three students</td>
+                                <td>team of four students</td>
                             </tr>
                             <tr>
                                 <td>About:</td>
-                                <td>Design a reliable app for Digital Services students of Haaga-Helia</td>
+                                <td>Higher fidelity application for students of Haaga-Helia</td>
                             </tr>
                             <tr>
                                 <td>Goals:</td>
-                                <td> easy access to course materials, easy-to-use and intuitive interface</td>
+                                <td>engaging and intuitive interface, easy access to course materials, progress tracking function</td>
                             </tr>
                             <tr>
                                 <td>Methods:</td>
-                                <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
+                                <td>paper prototype, low-fidelity prototype, usability evaluation tests</td>
                             </tr>
                         </table>
 
@@ -135,19 +136,19 @@ const UXUIDesign = () => {
                             </tr>
                             <tr>
                                 <td>Done by:</td>
-                                <td>team of three students</td>
+                                <td>team of four students</td>
                             </tr>
                             <tr>
                                 <td>About:</td>
-                                <td>Design a reliable app for Digital Services students of Haaga-Helia</td>
+                                <td>Application for patients to book a time for doctor appointment</td>
                             </tr>
                             <tr>
                                 <td>Goals:</td>
-                                <td> easy access to course materials, easy-to-use and intuitive interface</td>
+                                <td>minimalistic interface, easy access for all people</td>
                             </tr>
                             <tr>
                                 <td>Methods:</td>
-                                <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
+                                <td>paper prototype, benchmarking</td>
                             </tr>
                         </table>
 
@@ -172,19 +173,19 @@ const UXUIDesign = () => {
                             </tr>
                             <tr>
                                 <td>Done by:</td>
-                                <td>team of three students</td>
+                                <td>team of four students</td>
                             </tr>
                             <tr>
                                 <td>About:</td>
-                                <td>Design a reliable app for Digital Services students of Haaga-Helia</td>
+                                <td>Application for international students in Finland</td>
                             </tr>
                             <tr>
                                 <td>Goals:</td>
-                                <td> easy access to course materials, easy-to-use and intuitive interface</td>
+                                <td>easy access to important information for foreign students, such as events, sightseeings, restaurants, news, student card and more</td>
                             </tr>
                             <tr>
                                 <td>Methods:</td>
-                                <td>survey, user profile, interview, Task Matrics, scenario, paper prototype</td>
+                                <td>brainstorming, paper prototype, heuristic evaluation</td>
                             </tr>
                         </table>
                         <Button variant="outlined" style={{ borderRadius: 20, borderColor: '#fff', color: '#fff', maxWidth: '50%', alignSelf: 'center' }} onClick={() => window.open('https://prototyping-group4.invisionapp.com/console/share/ZQ2HFY42VJ')} sx={{ ':hover': { bgcolor: 'rgba(253, 251, 251, 0.255)' } }}>OPEN PROTOTYPE</Button>

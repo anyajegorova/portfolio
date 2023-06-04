@@ -7,7 +7,7 @@
     height: 50px;
     position: sticky;
     top: 0;
-    background-color: #383838;
+    background-color: #383838c4;
     z-index: 1;
     box-sizing: border-box;
 }
