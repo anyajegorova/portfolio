@@ -25,10 +25,12 @@
     "@emailjs/browser": "^3.11.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "heroku-postbuild": "npm run build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start"
+    
   },
   "eslintConfig": {
     "extends": [
