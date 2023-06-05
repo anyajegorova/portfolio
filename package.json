@@ -34,9 +34,6 @@
   "engines": {
     "node": "16.14.0"
   },
-  "proxy": "http://localhost:3000",
-  "homepage": ".",
-
 
   "eslintConfig": {
     "extends": [
